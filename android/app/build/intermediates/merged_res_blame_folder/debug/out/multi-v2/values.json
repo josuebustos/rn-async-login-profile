@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/josuebustos/Documents/SMART_Digicom/rn-sha256/myapp/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "outputFile": "/Users/josuebustos/Documents/SMART_Digicom/rn-async-login-profile/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
                 {
-                    "source": "/Users/josuebustos/Documents/SMART_Digicom/rn-sha256/myapp/android/app/src/main/res/values/strings.xml",
+                    "source": "/Users/josuebustos/Documents/SMART_Digicom/rn-async-login-profile/android/app/src/main/res/values/strings.xml",
                     "from": {
                         "startLines": "1,2,3",
                         "startColumns": "2,2,2",
@@ -37,6 +37,59 @@
                         "endLines": "2116,2123,2134,3502,3507",
                         "endColumns": "24,24,24,24,24",
                         "endOffsets": "143058,143443,144040,214858,215128"
+                    }
+                },
+                {
+                    "source": "/Users/josuebustos/Documents/SMART_Digicom/rn-async-login-profile/android/app/src/main/res/values/colors.xml",
+                    "from": {
+                        "startLines": "3,4,2,1",
+                        "startColumns": "2,2,2,2",
+                        "startOffsets": "117,162,70,14",
+                        "endColumns": "44,48,46,55",
+                        "endOffsets": "159,208,114,67"
+                    },
+                    "to": {
+                        "startLines": "33,34,45,75",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "2324,2371,3103,5044",
+                        "endColumns": "46,50,48,57",
+                        "endOffsets": "2366,2417,3147,5097"
+                    }
+                },
+                {
+                    "source": "/Users/josuebustos/Documents/SMART_Digicom/rn-async-login-profile/android/app/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "1,7,12",
+                        "startColumns": "2,2,2",
+                        "startOffsets": "61,393,636",
+                        "endLines": "6,11,14",
+                        "endColumns": "10,10,10",
+                        "endOffsets": "390,633,774"
+                    },
+                    "to": {
+                        "startLines": "378,1624,1769",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "26485,108777,119975",
+                        "endLines": "383,1628,1771",
+                        "endColumns": "10,10,10",
+                        "endOffsets": "26814,109017,120113"
+                    }
+                },
+                {
+                    "source": "/Users/josuebustos/Documents/SMART_Digicom/rn-async-login-profile/android/app/build/generated/res/resValues/debug/values/gradleResValues.xml",
+                    "from": {
+                        "startLines": "6,8",
+                        "startColumns": "4,4",
+                        "startOffsets": "156,262",
+                        "endColumns": "63,68",
+                        "endOffsets": "215,326"
+                    },
+                    "to": {
+                        "startLines": "275,276",
+                        "startColumns": "4,4",
+                        "startOffsets": "17710,17774",
+                        "endColumns": "63,68",
+                        "endOffsets": "17769,17838"
                     }
                 },
                 {
@@ -109,59 +162,6 @@
                         "startOffsets": "3956,13071,13124,13177,13230,118699,118875,118997,119259,119454",
                         "endColumns": "88,52,52,52,52,65,121,60,65,66",
                         "endOffsets": "4040,13119,13172,13225,13278,118760,118992,119053,119320,119516"
-                    }
-                },
-                {
-                    "source": "/Users/josuebustos/Documents/SMART_Digicom/rn-sha256/myapp/android/app/src/main/res/values/styles.xml",
-                    "from": {
-                        "startLines": "1,7,12",
-                        "startColumns": "2,2,2",
-                        "startOffsets": "61,393,636",
-                        "endLines": "6,11,14",
-                        "endColumns": "10,10,10",
-                        "endOffsets": "390,633,774"
-                    },
-                    "to": {
-                        "startLines": "378,1624,1769",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "26485,108777,119975",
-                        "endLines": "383,1628,1771",
-                        "endColumns": "10,10,10",
-                        "endOffsets": "26814,109017,120113"
-                    }
-                },
-                {
-                    "source": "/Users/josuebustos/Documents/SMART_Digicom/rn-sha256/myapp/android/app/build/generated/res/resValues/debug/values/gradleResValues.xml",
-                    "from": {
-                        "startLines": "6,8",
-                        "startColumns": "4,4",
-                        "startOffsets": "156,262",
-                        "endColumns": "63,68",
-                        "endOffsets": "215,326"
-                    },
-                    "to": {
-                        "startLines": "275,276",
-                        "startColumns": "4,4",
-                        "startOffsets": "17710,17774",
-                        "endColumns": "63,68",
-                        "endOffsets": "17769,17838"
-                    }
-                },
-                {
-                    "source": "/Users/josuebustos/Documents/SMART_Digicom/rn-sha256/myapp/android/app/src/main/res/values/colors.xml",
-                    "from": {
-                        "startLines": "3,4,2,1",
-                        "startColumns": "2,2,2,2",
-                        "startOffsets": "117,162,70,14",
-                        "endColumns": "44,48,46,55",
-                        "endOffsets": "159,208,114,67"
-                    },
-                    "to": {
-                        "startLines": "33,34,45,75",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "2324,2371,3103,5044",
-                        "endColumns": "46,50,48,57",
-                        "endOffsets": "2366,2417,3147,5097"
                     }
                 },
                 {
