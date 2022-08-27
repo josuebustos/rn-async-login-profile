@@ -13,6 +13,8 @@ import java.util.ArrayList;
 
 // @react-native-async-storage/async-storage
 import com.reactnativecommunity.asyncstorage.AsyncStoragePackage;
+// @react-native-community/netinfo
+import com.reactnativecommunity.netinfo.NetInfoPackage;
 // expo
 import expo.modules.ExpoModulesPackage;
 // react-native-safe-area-context
@@ -67,6 +69,7 @@ public class PackageList {
     return new ArrayList<>(Arrays.<ReactPackage>asList(
       new MainReactPackage(mConfig),
       new AsyncStoragePackage(),
+      new NetInfoPackage(),
       new ExpoModulesPackage(),
       new SafeAreaContextPackage(),
       new Sha256Package(),

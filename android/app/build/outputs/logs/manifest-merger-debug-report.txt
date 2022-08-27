@@ -9,6 +9,7 @@ MERGED from [com.facebook.flipper:flipper:0.54.0] /Users/josuebustos/.gradle/cac
 MERGED from [com.facebook.flipper:flipper-network-plugin:0.54.0] /Users/josuebustos/.gradle/caches/transforms-3/1a111d04c52921d6f3226d1a1ecb5f06/transformed/jetified-flipper-network-plugin-0.54.0/AndroidManifest.xml:8:1-15:12
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.54.0] /Users/josuebustos/.gradle/caches/transforms-3/0c5fa7a533a8c16e801c790ed3f5602a/transformed/jetified-flipper-fresco-plugin-0.54.0/AndroidManifest.xml:8:1-15:12
 MERGED from [:react-native-async-storage_async-storage] /Users/josuebustos/Documents/SMART_Digicom/rn-async-login-profile/node_modules/@react-native-async-storage/async-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-community_netinfo] /Users/josuebustos/Documents/SMART_Digicom/rn-async-login-profile/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-12:12
 MERGED from [:expo] /Users/josuebustos/Documents/SMART_Digicom/rn-async-login-profile/node_modules/expo/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-safe-area-context] /Users/josuebustos/Documents/SMART_Digicom/rn-async-login-profile/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-sha256] /Users/josuebustos/Documents/SMART_Digicom/rn-async-login-profile/node_modules/react-native-sha256/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
@@ -266,6 +267,8 @@ MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.54.0] /Users/josuebust
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.54.0] /Users/josuebustos/.gradle/caches/transforms-3/0c5fa7a533a8c16e801c790ed3f5602a/transformed/jetified-flipper-fresco-plugin-0.54.0/AndroidManifest.xml:11:5-13:41
 MERGED from [:react-native-async-storage_async-storage] /Users/josuebustos/Documents/SMART_Digicom/rn-async-login-profile/node_modules/@react-native-async-storage/async-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-async-storage_async-storage] /Users/josuebustos/Documents/SMART_Digicom/rn-async-login-profile/node_modules/@react-native-async-storage/async-storage/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_netinfo] /Users/josuebustos/Documents/SMART_Digicom/rn-async-login-profile/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_netinfo] /Users/josuebustos/Documents/SMART_Digicom/rn-async-login-profile/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:expo] /Users/josuebustos/Documents/SMART_Digicom/rn-async-login-profile/node_modules/expo/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:expo] /Users/josuebustos/Documents/SMART_Digicom/rn-async-login-profile/node_modules/expo/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-safe-area-context] /Users/josuebustos/Documents/SMART_Digicom/rn-async-login-profile/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
@@ -410,8 +413,14 @@ INJECTED from /Users/josuebustos/Documents/SMART_Digicom/rn-async-login-profile/
 		INJECTED from /Users/josuebustos/Documents/SMART_Digicom/rn-async-login-profile/android/app/src/debug/AndroidManifest.xml
 uses-permission#android.permission.ACCESS_WIFI_STATE
 ADDED from [com.facebook.flipper:flipper:0.54.0] /Users/josuebustos/.gradle/caches/transforms-3/62ece1a98ef095db320a1cbbfb42e6fd/transformed/jetified-flipper-0.54.0/AndroidManifest.xml:16:5-76
+MERGED from [:react-native-community_netinfo] /Users/josuebustos/Documents/SMART_Digicom/rn-async-login-profile/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-76
+MERGED from [:react-native-community_netinfo] /Users/josuebustos/Documents/SMART_Digicom/rn-async-login-profile/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-76
 	android:name
 		ADDED from [com.facebook.flipper:flipper:0.54.0] /Users/josuebustos/.gradle/caches/transforms-3/62ece1a98ef095db320a1cbbfb42e6fd/transformed/jetified-flipper-0.54.0/AndroidManifest.xml:16:22-73
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:react-native-community_netinfo] /Users/josuebustos/Documents/SMART_Digicom/rn-async-login-profile/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from [:react-native-community_netinfo] /Users/josuebustos/Documents/SMART_Digicom/rn-async-login-profile/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:22-76
 intent#action:name:android.intent.action.OPEN_DOCUMENT_TREE
 ADDED from [:expo-file-system] /Users/josuebustos/Documents/SMART_Digicom/rn-async-login-profile/node_modules/expo-file-system/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:9-21:18
 action#android.intent.action.OPEN_DOCUMENT_TREE
