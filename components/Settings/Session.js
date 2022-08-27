@@ -6,22 +6,28 @@ const GetSession = () => {
 
   const [data, setData] = useState([]);
 
-  const showText = () => {    
-    if (data.length === 0) {
-      return <Text>No Data</Text>;
-    } else{      
-      return <Text>{data.company.description.blocks[0].text}</Text>;
+  const getUserSession = async () => {
+    try {
+      const sessionKey = await AsyncStorage.getItem('@session_Key');
+      // console.log(sessionKey);
+      if (sessionKey === null) {
+        await AsyncStorage.setItem('@session_Key', "false");       
+      }
+    } catch (e) {
+      console.log(e);
+      // saving error
     }
   }
+  
 
-  const start = async () => {
+  const getUserProfile = async () => {
     try {
-      const value = await AsyncStorage.getItem('@storage_Key')
+      const value = await AsyncStorage.getItem('@storage_Key');
       if (value !== null) {
         const jsonObj = JSON.parse(value);
         setData(jsonObj);
         // console.log(data.first_name)
-      } else {
+      } else {        
         console.log("no data found");
       }
     } catch (e) {
@@ -32,9 +38,18 @@ const GetSession = () => {
   }
 
   useEffect(() => {
-    start();
-  }, [])
+    getUserSession();
+  // getUserProfile();  
 
+  }, []);
+
+  const showText = () => {
+    if (data.length === 0) {
+      return <Text>Please Log In</Text>;
+    } else {
+      return <Text>{data.company.description.blocks[0].text}</Text>;
+    }
+  }
 
   return <>{showText()}</>;
 
